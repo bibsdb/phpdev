@@ -7,5 +7,25 @@
 	"settings": {
 		"files.associations": {
 			"*.module": "php", "*.inc": "php"}
+	},
+	"launch": {
+		"configurations": [
+			{
+				"name": "Listen for XDebug",
+				"type": "php",
+				"request": "launch",
+				"port": 9000,
+				"pathMappings": {
+					"/var/www/code/drupal": "${workspaceFolder}/web/code/drupal",
+				},
+				"xdebugSettings": {
+					"max_data": 65535,
+					"show_hidden": 1,
+					"max_children": 100,
+					"max_depth": 4
+				}
+			}, 
+		]
+
 	}
 }
