@@ -16,7 +16,7 @@
 				"request": "launch",
 				"port": 9000,
 				"pathMappings": {
-					"/var/www/code/drupal": "/home/dkagms/phpdev/web/code/drupal",
+					"/var/www/code/bibsdb.docker/drupal": "/home/dkagms/phpdev/web/code/bibsdb.docker/drupal",
 				},
 				"xdebugSettings": {
 					"max_data": 65535,
