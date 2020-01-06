@@ -6,7 +6,7 @@
 	],
 	"settings": {
 		"files.associations": {
-			"*.module": "php", "*.inc": "php"}
+			"*.module": "php", "*.inc": "php", "*.install": "php"}
 	},
 	"launch": {
 		"configurations": [
