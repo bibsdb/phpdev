@@ -6,7 +6,10 @@
 	],
 	"settings": {
 		"files.associations": {
-			"*.module": "php", "*.inc": "php"}
+			"*.module": "php",
+			"*.inc": "php"
+		},
+		"editor.tabSize": 2
 	},
 	"launch": {
 		"configurations": [
